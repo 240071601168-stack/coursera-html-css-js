@@ -1,0 +1,41 @@
+/* Navbar Styling */
+#header-nav {
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* Ensure mobile dropdown takes full width & stands out */
+#bs-nav-dropdown {
+  background-color: #e7e7e7;
+  border-top: 1px solid #e7e7e7;
+}
+
+#bs-nav-dropdown ul li a {
+  color: #333;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Menu Section Styling */
+.menu-item {
+  background-color: #999999;
+  padding: 15px;
+  margin-bottom: 20px;
+  min-height: 700px; /* High enough to allow scrolling */
+  border: 1px solid black;
+}
+
+.menu-item h3 {
+  margin-top: 0;
+}
+
+/* Center link in mobile */
+.block {
+  display: block;
+  margin-top: 15px;
+}
